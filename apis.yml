@@ -1,7 +1,24 @@
 aid: gem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gem.png
 name: Gem
-description: 'Gem is a company surfaced as a portfolio company of ggv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Gem Security was a cloud detection and response (CDR) company, founded in 2022 in Tel Aviv,
+  that built a real-time cloud threat detection, investigation, and response platform to shorten the time to
+  investigate and contain cloud-native attacks. It raised roughly $34M from Team8, GGV/Notable Capital, IBM
+  Ventures, Cisco Investments, and Silicon Valley CISO Investments, and was acquired by Wiz for about $350M in
+  April 2024 to expand Wiz''s CDR offering. Gem no longer operates as an independent product: the gem.security
+  domain permanently redirects to Wiz and there is no standalone Gem developer portal, public API, OpenAPI,
+  SDK, or documentation surface to enrich. This record is retained as an acquired-company / portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/gem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +26,20 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: wiz
+x-acquired-date: '2024-04'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Security
+- Cloud Security
+- Cloud Detection and Response
+- CDR
+- Threat Detection
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gem-domain-security.yml
 - type: Website
   url: https://www.gem.security/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
