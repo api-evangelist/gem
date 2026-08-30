@@ -58,6 +58,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/wiz/
+  name: Wiz
+  x-relationship: acquired
+  x-evidence: "It raised roughly $34M from Team8, GGV/Notable Capital, IBM Ventures, Cisco Investments, and Silicon Valley CISO Investments, and was acquired by Wiz for about $350M in April 2024 to expand Wiz's CDR offering."
 - type: DomainSecurity
   url: security/gem-domain-security.yml
 - type: Website
