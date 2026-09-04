@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.gem.security/', status: 308, note: 'declared website redirects to https://www.wiz.io/blog/wiz-acquires-gem-security-to-reinvent-threat-detection-in-the-cloud — a different registrable domain (gem.security -> wiz.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gem.png
 name: Gem
 description: 'Gem Security was a cloud detection and response (CDR) company, founded in 2022 in Tel Aviv,
